@@ -203,3 +203,40 @@ footer p {
     margin: 0 auto;
     padding-top: 5rem;
 }
+
+.location h4 {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.locheader {
+    width: 35.5%;
+}
+
+.hours {
+    width: 35.5%;
+}
+
+
+
+.location p {
+    padding-top: 0.5rem;
+    
+}
