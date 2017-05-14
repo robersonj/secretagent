@@ -188,3 +188,18 @@ nav a {
     text-align: center;
     
 }
+
+footer {
+    height: 10rem;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
