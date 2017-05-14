@@ -36,9 +36,9 @@ header h1 {
 
 
 nav {
-    background-color: firebrick;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    display: flex;
+    width: 960px;
+    
 }
 
 
@@ -82,4 +82,29 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.navigation {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: firebrick;
+}
+
+.container2 {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+nav a {
+    font-family: Helvetica;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
 }
