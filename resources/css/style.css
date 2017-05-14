@@ -1,0 +1,44 @@
+/* === UNIVERSAL STYLES === */
+
+html {
+    font-size: 18px;
+}
+
+/* === LOGO BAR STYLES === */
+
+header {
+    background-color: black;
+    width: 
+}
+
+header img {
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+header h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    width: 960px; 
+    margin: 0 auto;
+}
+
+
+
+nav {
+    background-color: firebrick;
+}
+
+
+
