@@ -14,6 +14,8 @@ header img {
     height: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 header h1 {
@@ -134,7 +136,7 @@ nav a {
 .products {
     display: flex;
     justify-content: space-between;
-    align-: center;
+    align-items: center;
     padding-top: 3rem;
     width: 960px;
     margin: 0 auto;
@@ -239,4 +241,94 @@ footer p {
 .location p {
     padding-top: 0.5rem;
     
+}
+
+@media only screen and (min-width : 1024px) {
+    .hidden {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    
+   footer, nav, nav a, .container2, .header-bar, .location, .navigation, .products {
+        width: 100%;
+    }
+    
+    nav a, .product-img2 {
+        display: none;
+    }
+    
+    .hidden {
+        display: block;
+        text-align: center;
+    }
+    
+    .locheader, .hours {
+        width: 35%;
+    }
+    
+    .product-img {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width : 470px) {
+    .logo {
+        margin: 0 auto;
+    }
+    
+    h1 {
+        display: none;
+    }
+    
+    footer p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .location {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .locheader, .hours {
+        width: 90%;
+    }
+    
+    .hours {
+        margin-top: 1rem;
+    }
+    
+    .product-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .middle {
+        display: none;
+    }
+    
+    .container, .featured-image-header {
+        width: 100%;
+    }
+    
+    .featured-image-header {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: rem;
+    }
+    
+    .featured-image-header h2 {
+        font-size: 0.77rem;
+    }
+    
+    .featured-image-header h3 {
+        font-size: 1rem;
+    }
+    
+    .featured-image {
+        height: 15rem;
+    }
 }
