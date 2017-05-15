@@ -285,6 +285,7 @@ footer p {
     footer p {
         width: 100%;
         text-align: center;
+        font-weight: 100;
     }
     
     .location {
@@ -298,7 +299,7 @@ footer p {
     }
     
     .hours {
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
     
     .product-img {
@@ -315,9 +316,9 @@ footer p {
     }
     
     .featured-image-header {
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-top: 1rem;
-        padding-bottom: rem;
+        padding-bottom: 2rem;
     }
     
     .featured-image-header h2 {
@@ -325,10 +326,10 @@ footer p {
     }
     
     .featured-image-header h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     
     .featured-image {
-        height: 15rem;
+        height: 18rem;
     }
 }
